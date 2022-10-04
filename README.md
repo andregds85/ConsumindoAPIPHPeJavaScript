@@ -1,0 +1,2 @@
+# ConsumindoAPIPHPeJavaScript
+GET PHP E GET JAVASCRIPT
