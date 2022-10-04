@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+       <title>Exemplo 02 - consumindo via Javascript</title>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ </head>
+ <body>
+        <div id="resultado"></div>
+        <script type="text/javascript">
+           $.get( "https://apilivros.tk/api/public/api/livros", function( data ) {
+           console.log(data);
+           $("#resultado").append(JSON.stringify(data));                                             });
+       </script>
+ </body>
+ </html>
